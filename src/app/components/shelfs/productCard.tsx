@@ -4,23 +4,25 @@ import {products} from '../../database.json';
 interface product{
     name: string;
     description: string;
-    priority: 0;
+    priority: number;
     image: string;
     pricing: string;
     link_purchase: string;
-
 }
 
 interface shelfData{
     product: string;
-    key: number;
 }
 
-export default function ProductCard({product, key}: shelfData){
+export default function ProductCard({product }: shelfData){
     const data = products.find(p=> p.name == product);
 
+    function onDetailsClick(product: string){
+        document.querySelector(".details-product")?.setAttribute('data-product', product);
+    }
+
     return (
-        <div key={key} className={`product card card-compact group w-full text-start hover:bg-slate-100 hover:cursor-pointer border border-zinc-200`}>
+        <div className={`product card card-compact group w-full text-start hover:bg-slate-100 hover:cursor-pointer border border-zinc-200`}>
             <img 
                 src={data?.image}
                 alt={data?.name}
@@ -35,14 +37,9 @@ export default function ProductCard({product, key}: shelfData){
                     </div>
                 </div>
                 <div className="flex flex-col gap-0">
-                    <button className='bg-teal-300 text-white py-2 hover:bg-teal-400'>Ver detalhes</button>
+                    <button className='bg-teal-300 text-white py-2 hover:bg-teal-400' onClick={() => onDetailsClick(product)}>Ver detalhes</button>
                 </div>
             </div>
-
-
-
-
-
         </div>
     )
 }

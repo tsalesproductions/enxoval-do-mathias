@@ -5,8 +5,8 @@ import MiniCart from './miniCart';
 
 export default function Header(){
     function openMiniCart(){
-        
         document.querySelector(".mini-cart")?.classList.add("open");
+        document.body.classList.toggle("overflow-hidden")
     }
 
     return(

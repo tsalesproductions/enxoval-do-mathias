@@ -1,5 +1,6 @@
 "use client";
 
+import React, { useEffect, useState } from 'react';
 
 // Import Swiper React components
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
@@ -16,8 +17,8 @@ import { useWidthSize } from '../hooks/useWidthSize';
 
 export default function Shelfs(){
     const { isMobile } = useWidthSize();
-
-    console.log(isMobile)
+    
+    const [selectedProduct, setSelectedProduct] = useState("");
 
     return (
         <div className={`shelfs mt-10`}>
@@ -34,7 +35,7 @@ export default function Shelfs(){
                         >
                             
                             {shelf.products.map((product, indexProduct) => {
-                                return <SwiperSlide><ProductCard product={product}  key={indexProduct} /></SwiperSlide>
+                                return <SwiperSlide key={indexProduct}><ProductCard product={product} /></SwiperSlide>
                             })}
                             
                         </Swiper>

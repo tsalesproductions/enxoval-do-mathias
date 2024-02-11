@@ -95,7 +95,7 @@ body {
     display: none;
   }
 
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -140,7 +140,7 @@ body {
 
 /* image hover  */
 
-.product.card:hover::after {
+/* .product.card:hover::after {
   content: "";
   display: block;
   left: 0;
@@ -148,22 +148,22 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url(/_next/static/media/eutoqei.88aee3c4.png) no-repeat;
+  background: url("../../public/eutoqei.png") no-repeat;
   background-size: 100px;
   z-index: 1;
   background-position: bottom;
   background-color: rgba(255,255,255,.6);
   
-}
+} */
 
 
 
 .details-product{
-  &:not(:open){
+  &:not(.open){
     display: none;
   }
   
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -213,6 +213,9 @@ body {
       input{
         height: 40px;
         color: #000;
+        -webkit-appearance: none;
+        -moz-appearance:    none;
+        appearance:         none;
       }
     }
   }

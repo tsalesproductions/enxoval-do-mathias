@@ -42,7 +42,7 @@
     "products": [
         {
             "name": "PRODUTO TESTE",
-            "description": "",
+            "description": "Lorem ipsum dolem",
             "priority": 0,
             "image": "https://blog.singularbaby.com.br/wp-content/uploads/2022/05/como-fazer-a-Check-list-enxoval-bebe-scaled.jpg",
             "pricing": "R$ 200,00",
