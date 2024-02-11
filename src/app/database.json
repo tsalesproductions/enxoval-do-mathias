@@ -1,0 +1,52 @@
+{
+    "info": {
+        "name": "Enxoval do Mathias",
+        "image": "https://blog.singularbaby.com.br/wp-content/uploads/2022/05/como-fazer-a-Check-list-enxoval-bebe-scaled.jpg",
+        "title": "Enxoval do Mathias",
+        "description": "Lorem ipsum dolem"
+    },
+
+    "shelfs": [
+        {
+            "order": 0,
+            "title": "Primeira Vitrine",
+            "description": "Essenciais",
+            "products": [
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE"
+            ]
+        },
+        {
+            "order": 1,
+            "title": "Segunda Vitrine",
+            "description": "detalhes",
+            "products": [
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE",
+                "PRODUTO TESTE"
+            ]
+        }
+    ],
+
+    "products": [
+        {
+            "name": "PRODUTO TESTE",
+            "description": "",
+            "priority": 0,
+            "image": "https://blog.singularbaby.com.br/wp-content/uploads/2022/05/como-fazer-a-Check-list-enxoval-bebe-scaled.jpg",
+            "pricing": "R$ 200,00",
+            "link_purchase": "https://google.com/"
+        }
+    ]
+}
