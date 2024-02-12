@@ -30,7 +30,7 @@ export default function Shelfs(){
                         <Swiper
                             modules={[Navigation, A11y]}
                             spaceBetween={10}
-                            slidesPerView={isMobile ? 2: 5}
+                            slidesPerView={isMobile ? 2.15: 5}
                             navigation
                         >
                             

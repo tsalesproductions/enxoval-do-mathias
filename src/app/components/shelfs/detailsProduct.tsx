@@ -7,10 +7,6 @@ import storage from '../storage/storage';
 
 //https://codexcoach.com/how-to-create-addtocart-in-next-js-react-js/
 
-interface DetailsProductProps {
-    productName: string; // Recebe o nome do produto como propriedade
-}
-
 interface product{
     name: string;
     description: string;
@@ -20,7 +16,7 @@ interface product{
     link_purchase: string;
 }
 
-export default function DetailsProduct({ productName }: DetailsProductProps) {
+export default function DetailsProduct() {
     const [ menuActive, setMenuState ] = useState(false);
     const [productData, setProductData] = useState<product | null>(null);
 

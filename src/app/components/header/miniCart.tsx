@@ -8,9 +8,6 @@ interface productInfo{
     product: string;
 }
 
-
-const producstInCart = [];
-
 export default function MiniCart(){
 
     function toggleMiniCart(hide = false){
@@ -19,7 +16,18 @@ export default function MiniCart(){
         
     }
 
+    function getSubtotal(items : any){
+        let total = 0;
+
+        for (let i = 0; i < items.length; i++) {
+            total += items[i].price * items[i].quantity;
+        }
+
+        return total;
+    }
+
     const [productsInCart, setProductsInCart] = useState<any[]>(storage().get());
+    const [subTotalCart, setSubTotalCart] = useState<number>(getSubtotal(storage().get()));
 
     useEffect(() => {
         // Função para lidar com o evento de atualização do carrinho
@@ -28,6 +36,7 @@ export default function MiniCart(){
             if (customEvent.detail) {
                 const products = customEvent.detail.cartData;
                 setProductsInCart(products); // Adiciona o novo produto ao carrinho
+                setSubTotalCart(getSubtotal(products));
 
                 document.body.classList.remove("overflow-hidden")
                 const a = document.querySelector(".cart .qtd") as HTMLElement | null;
@@ -68,9 +77,10 @@ export default function MiniCart(){
             }
 
             setProductsInCart(storageData);
+            setSubTotalCart(getSubtotal(storageData));
         }
     }
-
+    
     return(
         <div className={`mini-cart`}>
             <div className="overlay cursor-pointer" onClick={() => toggleMiniCart()}></div>
@@ -78,14 +88,15 @@ export default function MiniCart(){
                 <div className='text-lg border-b'>Meu carrinho</div>
                 <span className="close cursor-pointer" onClick={() => toggleMiniCart()}>X</span>
                 
-                <div className={`products ${producstInCart.length == 0 ? "without-products" : "empty"}`}>
+                <div className={`products ${productsInCart.length == 0 ? "without-products" : "empty"}`}>
                     {
                         productsInCart.map((product, index) => (
                             <div className="product" key={index}>
                                 <img src={product.image} alt={product.name} />
                                 <div className="details">
-                                    <h4 className="name">{product.name}</h4>
-                                    <p>Quantidade: {product.quantity}</p>
+                                    <h4 className="name font-semibold">{product.name}</h4>
+                                    <p className="text-xs">Quantidade: {product.quantity}</p>
+                                    <p className="font-semibold text-sm">{product.price.toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })}</p>
                                 </div>
                                 <button className="remover" onClick={() => handleRemoveItem(product.name)}>X</button>
                             </div>
@@ -93,10 +104,11 @@ export default function MiniCart(){
                     }
                 </div>
                 <div className="actions">
+                    <div className="subtotal text-center mb-2"><small>Subtotal:</small> <span>{subTotalCart.toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })}</span></div>
+                    <button className="continue" onClick={() => toggleMiniCart()}>Continuar comprando</button>
                     {productsInCart.length > 0 ? (
                     <button className="finish">Finalizar pedido</button>
                     ) : ""}
-                    <button className="continue">Continuar comprando</button>
                 </div>
             </div>
         </div>
