@@ -107,7 +107,7 @@ export default function MiniCart(){
                     <div className="subtotal text-center mb-2"><small>Subtotal:</small> <span>{subTotalCart.toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })}</span></div>
                     <button className="continue" onClick={() => toggleMiniCart()}>Continuar comprando</button>
                     {productsInCart.length > 0 ? (
-                    <button className="finish">Finalizar pedido</button>
+                    <button className="finish" onClick={() => location.href="/cart"}>Finalizar pedido</button>
                     ) : ""}
                 </div>
             </div>

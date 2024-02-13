@@ -1,3 +1,5 @@
+"use client";
+
 export default function storage() {
     function checkStorage() {
         if (typeof window !== 'undefined' && typeof localStorage !== 'undefined') {
