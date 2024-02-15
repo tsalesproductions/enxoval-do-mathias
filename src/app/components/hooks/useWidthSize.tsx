@@ -20,7 +20,7 @@ export const useWidthSize = () => {
     return () => {
       window.removeEventListener("resize", handleResize)
     }
-  }, [])
+  }, [widthWindow])
 
   return { isMobile, widthWindow }
 }

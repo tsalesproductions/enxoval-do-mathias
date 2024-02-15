@@ -2,8 +2,27 @@
     "info": {
         "name": "Enxoval do Mathias",
         "image": "https://blog.singularbaby.com.br/wp-content/uploads/2022/05/como-fazer-a-Check-list-enxoval-bebe-scaled.jpg",
+        "bg": "/baby-bg.png",
         "title": "Enxoval do Mathias",
         "description": "Lorem ipsum dolem"
+    },
+
+    "pix":{
+        "key": "pix@thiagosales.dev",
+        "name": "THIAGO PADILHA SALES",
+        "city": "RIO DE JANEIRO",
+        "cep": "22775150",
+        "identification": "ENXOVALMAT*"
+    },
+
+    "address":{
+        "street": "Estrada dos teixeiras",
+        "number": "80",
+        "complement": "Bloco 05 AP 211",
+        "state": "RJ",
+        "city": "Rio de Janeiro",
+        "zipcode": "22723-205",
+        "receiver": "Izabelly Gonçalves / Thiago Sales"
     },
 
     "shelfs": [
@@ -45,7 +64,7 @@
             "description": "Lorem ipsum dolem",
             "priority": 0,
             "image": "https://blog.singularbaby.com.br/wp-content/uploads/2022/05/como-fazer-a-Check-list-enxoval-bebe-scaled.jpg",
-            "pricing": "R$ 200,00",
+            "pricing": 200,
             "link_purchase": "https://google.com/"
         }
     ]

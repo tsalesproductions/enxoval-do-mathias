@@ -6,7 +6,7 @@ import { useEffect, useState } from "react"
 import Header from "../components/header"
 import storage from "../components/storage/storage"
 import { useWidthSize } from '../components/hooks/useWidthSize';
-
+import Footer from '../components/footer/footer';
 
 interface Product{
     image: string, 
@@ -167,6 +167,7 @@ function CartPage(){
                     </>)}
                 </div>
             </main>
+            <Footer/>
         </>
     )
 }

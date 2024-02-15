@@ -26,10 +26,14 @@ export default function MiniCart(){
         return total;
     }
 
-    const [productsInCart, setProductsInCart] = useState<any[]>(storage().get());
-    const [subTotalCart, setSubTotalCart] = useState<number>(getSubtotal(storage().get()));
+    const [productsInCart, setProductsInCart] = useState<any[]>([]);
+    const [subTotalCart, setSubTotalCart] = useState<number>(0);
 
     useEffect(() => {
+        const items = storage().get();
+        setProductsInCart(items);
+        setSubTotalCart(getSubtotal(items))
+        
         // Função para lidar com o evento de atualização do carrinho
         const handleCartUpdate = (event: Event) => {
             const customEvent = event as CustomEvent;
@@ -60,7 +64,7 @@ export default function MiniCart(){
         return () => {
             window.removeEventListener('cartUpdated', handleCartUpdate);
         };
-    }, [productsInCart]);
+    }, []);
 
     function handleRemoveItem(name: string){
         const storageData = storage().get();

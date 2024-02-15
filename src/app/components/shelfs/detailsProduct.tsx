@@ -12,7 +12,7 @@ interface product{
     description: string;
     priority: number;
     image: string;
-    pricing: string;
+    pricing: number;
     link_purchase: string;
 }
 
@@ -74,7 +74,7 @@ export default function DetailsProduct() {
                         image: productDetails.image,
                         name: productDetails.name,
                         quantity: parseInt(qtd.value),
-                        price: parseFloat(productDetails.pricing.replace("R$ ", "").replace(".", "").replace(",", "."))
+                        price: productDetails.pricing
                     })
                 }else{
                     cartData[hasProduct].quantity = cartData[hasProduct].quantity + parseInt(qtd.value);
@@ -100,7 +100,7 @@ export default function DetailsProduct() {
                     {productData ? (
                     <>
                     <div className="images">
-                            <img src={productData.image}/>
+                            <img alt={productData.name} src={productData.image}/>
                         </div>
 
                         <div className="details">
@@ -108,7 +108,7 @@ export default function DetailsProduct() {
                             <p className="description text-base-300 text-sm lg:text-base mb-5">
                                 {productData.description}
                             </p>
-                            <div className="text-accent text-base lg:text-xl mb-5">{productData.pricing}</div>
+                            <div className="text-accent text-base lg:text-xl mb-5">{productData.pricing.toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })}</div>
                             <div className="cta">
                                 <input type="number" name="qtd" id="qtd" min={1} defaultValue={1} max={99} className='border-2 border-teal-300 text-center text-2xl outline-none' />
                                 <button type="button" className='bg-teal-300 text-white py-2 hover:bg-teal-400'

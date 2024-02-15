@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import {info} from '../../database.json';
 import storage from '../storage/storage';
 import MiniCart from './miniCart';
+import Link from 'next/link';
 
 export default function Header(){
     
@@ -22,10 +23,15 @@ export default function Header(){
 
     return(
         <>
-            <header className={`w-200 flex flex-col justify-center items-center header py-10`}>
-                <img src={info.image} className={`w-40 h-40 rounded-full shadow-md`}/>
-                <h4 className={`text-2xl font-600 mt-5 text-whitee`}>{info.title}</h4>
-                <p className={`text-sm text-whitee`}>{info.description}</p>
+            <header className={`w-200 flex flex-col justify-center items-center header py-10 pb-2`} style={{backgroundImage: `url(${info.bg})`}}>
+                <Link
+                    href={"/"}>
+                    <img src={info.image} className={`w-40 h-40 rounded-full shadow-md`}/>
+                </Link>
+                <div className='shadow-sm rounded bg-white p-5 mt-5 text-center'>
+                    <h4 className={`text-2xl font-600`}>{info.title}</h4>
+                    <p className={`text-sm`}>{info.description}</p>
+                </div>
 
                 <div className="cart cursor-pointer" onClick={() => openMiniCart()}>
                     <div className='qtd'>

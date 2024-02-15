@@ -33,7 +33,7 @@ export default function ProductCard({product }: shelfData){
                 <div className="flex flex-col gap-0"><div className="truncate text-base lg:text-lg text-base-content">{data?.name}</div></div>
                 <div className="flex flex-col gap-0">
                     <div className="flex flex-col gap-0 prices lg:flex-row lg:gap-2 justify-start">
-                        <div className="text-accent text-base lg:text-xl price">{data?.pricing}</div>
+                        <div className="text-accent text-base lg:text-xl product-pricing">{data?.pricing.toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })}</div>
                     </div>
                 </div>
                 <div className="flex flex-col gap-0">
