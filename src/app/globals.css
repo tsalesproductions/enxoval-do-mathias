@@ -224,6 +224,9 @@ body {
   -moz-appearance: none;
   appearance: none;
 }
-
+.product.card>img{
+  height: 250px;
+  object-fit: cover;
+}
 
 

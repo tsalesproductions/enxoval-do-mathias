@@ -14,6 +14,10 @@ import {shelfs} from '../../database.json';
 import ProductCard from './productCard';
 import { useWidthSize } from '../hooks/useWidthSize';
 
+const shelfsOrdered = shelfs.sort((a,b) => {
+    return a.order - b.order
+})
+
 
 export default function Shelfs(){
     const { isMobile } = useWidthSize();
@@ -22,7 +26,7 @@ export default function Shelfs(){
 
     return (
         <div className={`shelfs mt-10`}>
-            {shelfs.map((shelf, index) => {
+            {shelfsOrdered.map((shelf, index) => {
                 return (
                     <div key={index} data-title={shelf.title} className={`shelf mb-20`}>
                         <h4 className={`text-2xl font-semibold text-center after-border`}>{shelf.title} <small className={`text-sx font-light`}>{shelf.description}</small></h4>

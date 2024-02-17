@@ -28,44 +28,375 @@
     "shelfs": [
         {
             "order": 0,
-            "title": "Primeira Vitrine",
-            "description": "Essenciais",
+            "title": "Essenciais",
+            "description": "",
             "products": [
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE"
+                "Mini Berço 100% MDF com Colchão Yescasa",
+                "Mosquiteiro Para Mini Berço Véu Mini Berço",
+                "Banheira Com Suporte Dobrável e Trocador, 25l, até 30kg - Baby Hércules",
+                "Almofada Amamentação Extra Grande 100% Algodão Babado Verde",
+                "Almofada Para Banho do Bebê CINZA",
+                "Kit Higiene 13 Pçs Bebê Escova, Pente, Termômetro, Tesoura..",
+                "Bomba Manual Tira Leite Materno G-tech"
+            ]
+        },
+        {
+            "order": 3,
+            "title": "Roupinhas",
+            "description": "& Conforto",
+            "products": [
+                "Kit Enxoval Maternidade Bebe 16 Peças Pano de Boca Toalha Cueiro 100% Algodão Para Bebê",
+                "Kit 30 Peças Enxoval Bebes Roupas Para Recém Nascido",
+                "Kit 30 Pçs Enxoval Bebes Roupas Para Recem Nascido Atacado",
+                "Kit com 3 Manta Bebê Microfibra Soft Cobertor de Bebê Meninos Mantinhas 70 cm x 100cm",
+                "Kit Enxoval de Bebe 19 Peças 6 Pano de Boca 5 Fralda 3 Cueiro 1 Toalha de Banho 1 Kit Higiene Bebê",
+                "Kit 3 cueiro manta flanelado grande aconchego bebe infantil",
+                "Kit 3 Toalhas de Banho Bebê Papi Dupla Camada",
+                "Kit Roupa De Bebe 12 Peças Body Manga Longa E Mijão Suedine"
+            ]
+        },
+        {
+            "order": 2,
+            "title": "Higiene",
+            "description": "",
+            "products": [
+                "Creme Preventivo para Assaduras Infantil Huggies",
+                "Lenços Umedecidos Huggies Supreme Care",
+                "Kit Higiene do Bebê Shampoo + Condicionador + Sabonete - Granado",
+                "Kit Enxoval de Bebe 19 Peças 6 Pano de Boca 5 Fralda 3 Cueiro 1 Toalha de Banho 1 Kit Higiene Bebê",
+                "Kit Higiene 13 Pçs Bebê Escova, Pente, Termômetro, Tesoura..",
+                "Hipoglós Creme Preventivo De Assaduras",
+                "Colônia Cheirinho de Bebê 750 ml",
+                "Kit Natura Mamãe e Bebê"
             ]
         },
         {
             "order": 1,
-            "title": "Segunda Vitrine",
-            "description": "detalhes",
+            "title": "Fraldas",
+            "description": "",
             "products": [
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE",
-                "PRODUTO TESTE"
+                "Fralda Babysec Galinha Pintadinha Ultrasec",
+                "Fralda Huggies Supreme Care",
+                "Fralda Pampers Confort Sec Tam. M 6 a 10kg",
+                "Fralda Huggies Tripla Proteção Tam. G",
+                "Fralda Huggies Tripla Proteção",
+                "Fralda Huggies Supreme Care Roupinha Calça",
+                "Fraldas Pampers Supersec Tam. M",
+                "Fralda Pampers Premium Care G"
+            ]
+        },
+        {
+            "order": 4,
+            "title": "Mimos",
+            "description": "",
+            "products": [
+                "Kit Bolsa Bebê Mala Mochila Saída Maternidade Menino Menina",
+                "Kit Higiene Bebê Porcelana Garrafa Bandeja Mdf 6pçs",
+                "Ninho Redutor Mosquiteiro Berço Portatil Espuma Premium",
+                "Canguru Bebê Ergonômico Carregador Cinza Passeio Aiebao",
+                "Kit Mini Berço 10 Pçs - Rei do Kit berço Safari Verde",
+                "Tapete Bebe Ginásio Interação Som Tato Verde e Mantinha Urso",
+                "Bebê Conforto Cosco Wizz"
             ]
         }
     ],
 
     "products": [
         {
-            "name": "PRODUTO TESTE",
-            "description": "Lorem ipsum dolem",
+            "name": "Canguru Bebê Ergonômico Carregador Cinza Passeio Aiebao",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/canguru-bebe-ergonomico-carregador-cinza-passeio-aiebao\/primee-commerce\/ccacz\/911373d161e076e2c863059799d65a2f.jpeg",
+            "pricing": 74.99,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/canguru-bebe-ergonomico-carregador-cinza-passeio-aiebao\/p\/ekje9ba3j3\/bb\/cang\/",
             "priority": 0,
-            "image": "https://blog.singularbaby.com.br/wp-content/uploads/2022/05/como-fazer-a-Check-list-enxoval-bebe-scaled.jpg",
-            "pricing": 200,
-            "link_purchase": "https://google.com/"
-        }
+            "description": "A maneira mais confortável e prática de manter seu bebê sempre perto de você é com o carregador de bebês Aiebao, este tipo de canguru foi projetado para manter o seu conforto e o do bebê de forma segura. Cuidadosamente projetado para que você a mamãe ou o papai fique confortável em resolver outras tarefas enquanto tem o seu bebê sempre por perto. Há o alívio de tensões e dores nos ombros, lombar, braços, cintura e coluna, melhor postura, além de o bebê ficar mais calmo e tranquilo."
+           },
+           {
+            "name": "Ninho Redutor Mosquiteiro Berço Portatil Espuma Premium",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/ninho-redutor-mosquiteiro-berco-portatil-espuma-premium-bamboo\/bamboobaby\/16030592457\/5d8acef9c64db5e8f9fd0af7fdda3963.jpeg",
+            "pricing": 67.10,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/ninho-redutor-mosquiteiro-berco-portatil-espuma-premium-bamboo\/p\/kggd288451\/bb\/nnhr\/",
+            "priority": 0,
+            "description": "Com o Ninho Portátil Bamboo, espuma premium, seu pequeno(a) vai dormir e tirar as sonequinhas durante o dia de forma confortável e tranquila."
+           },
+           {
+            "name": "Kit 3 Toalhas de Banho Bebê Papi Dupla Camada",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-3-toalhas-de-banho-bebe-papi-dupla-camada\/pequenoleaoartigosinfantis\/kit3toalhasoftduplamenina\/373ea0fe40922a502c1ceb727eec7c72.jpeg",
+            "pricing": 149.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-3-toalhas-de-banho-bebe-papi-dupla-camada\/p\/ccg53e283d\/cm\/joto\/",
+            "priority": 0,
+            "description": "A toalha de 2 camadas Karinho da PAPI, foi desenvolvida para proporcionar maior conforto e segurança para seu bebê. Além de linda ela é produzida em 2 camadas de tecido 100% ALGODÃO SOFT (O MELHOR TECIDO DE TODOS) trazendo mais maciez e um toque mais aveludado a toalha, não agredindo a pele sensível do bebê. Além disso tudo ela tem um alto poder de absorção e um tamanho excelente de 80x80cm e para dar aquele charme a mais ela ainda tem capuz, para deixar seu baby mais lindo ao sair do banho!"
+           },
+           {
+            "name": "Almofada Amamentação Extra Grande 100% Algodão Babado Verde",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/almofada-amamentacao-extra-grande-100-algodao-babado-verde-monzillo-baby-e-kids\/casamonzillo\/amababadoverde\/be8d0291eca96f0ddd3458f23d3d6224.jpeg",
+            "pricing": 31.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/almofada-amamentacao-extra-grande-100-algodao-babado-verde-monzillo-baby-e-kids\/p\/fa5a635270\/bb\/alam\/",
+            "priority": 0,
+            "description": "A almofada de amamentação foi criada para proporcionar maior conforto para a mamãe e o bebê na hora de amamentar, proporcionando também uma maior qualidade no momento tão mágico para ambos. Pode ser utilizada também como apoio para o bebê, acompanhando-o por muitos meses."
+           },
+           {
+            "name": "Kit Enxoval Maternidade Bebe 16 Peças Pano de Boca Toalha Cueiro 100% Algodão Para Bebê",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-enxoval-maternidade-bebe-16-pecas-pano-de-boca-toalha-cueiro-100-algodao-para-bebe-papi-e-minasrey\/tostesbaby\/2000\/e197038a4270678448a6e76410366510.jpeg",
+            "pricing": 69.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-maternidade-bebe-16-pecas-pano-de-boca-toalha-cueiro-100-algodao-papi\/p\/bk01601665\/bb\/fdbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Kit 30 Peças Enxoval Bebes Roupas Para Recém Nascido",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-30-pecas-enxoval-bebes-roupas-para-recem-nascido-batutinhas-baby\/tanranbaby\/mg30rg\/c24130a2cf70d57257022f4058aad9e3.jpeg",
+            "pricing": 146.68,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-30-pecas-enxoval-bebes-roupas-para-recem-nascido-batutinhas-baby\/p\/cg3j7kd8c3\/bb\/exbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Kit 30 Pçs Enxoval Bebes Roupas Para Recem Nascido Atacado",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-30-pcs-enxoval-bebes-roupas-para-recem-nascido-atacado-jolen-baby\/jolen\/13910310874\/414f86fce37dc92bfd6c4a567e07acbb.jpeg",
+            "pricing": 149.97,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-30-pcs-enxoval-bebes-roupas-para-recem-nascido-atacado-jolen-baby\/p\/hje16g7d6g\/bb\/exbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Kit com 3 Manta Bebê Microfibra Soft Cobertor de Bebê Meninos Mantinhas 70 cm x 100cm",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-com-3-manta-bebe-microfibra-soft-cobertor-de-bebe-meninos-mantinhas-70-cm-x-100cm-bene-casa\/abelhamix\/kit3menino\/a216cc32f787d29dd479cc58e1331643.jpeg",
+            "pricing": 59.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-com-3-manta-bebe-microfibra-soft-cobertor-de-bebe-meninas-mantinhas-70-cm-x-100cm-bene-casa\/p\/kj1hkaa4jc\/cm\/mtbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Kit Enxoval de Bebe 19 Peças 6 Pano de Boca 5 Fralda 3 Cueiro 1 Toalha de Banho 1 Kit Higiene Bebê",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-enxoval-de-bebe-19-pecas-6-pano-de-boca-5-fralda-3-cueiro-1-toalha-de-banho-1-kit-higiene-bebe-papi-e-minasrey\/larasbaby\/e149b280c3b711edb0454201ac18502f\/16ac9b635d39ab690b0f7eb0e765f271.jpeg",
+            "pricing": 99.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-enxoval-de-bebe-19-pecas-6-pano-de-boca-5-fralda-3-cueiro-1-toalha-de-banho-1-kit-higiene-bebe-papi-e-minasrey\/p\/be0e39cka9\/bb\/exbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Kit Bolsa Bebê Mala Mochila Saída Maternidade Menino Menina",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-bolsa-bebe-mala-mochila-saida-maternidade-menino-menina-bambinelli\/babysmile\/ev-mommy-04\/49f10c93e4d6f78394d62027d703f5e1.jpeg",
+            "pricing": 170.20,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-bolsa-bebe-mala-mochila-saida-maternidade-menino-menina-bambinelli\/p\/dd0bb66h5a\/bb\/kide\/",
+            "priority": 0,
+            "description": "O Kit Bolsa Bebê Saída Maternidade Mommy foi criado especialmente para deixar o dia a dia da mamãe mais prático, confortável e funcional. Além de serem super charmosas."
+           },
+           {
+            "name": "Kit 3 cueiro manta flanelado grande aconchego bebe infantil",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-3-cueiro-manta-flanelado-grande-aconchego-bebe-infantil-mbbimports\/lojameubebe1\/15252697431\/926297fa88b6df1ab613f5575f939e41.jpeg",
+            "pricing": 43.00,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-3-cueiro-manta-flanelado-grande-aconchego-bebe-infantil-mbbimports\/p\/gf62086g5f\/bb\/cuei\/",
+            "priority": 0,
+            "description": "Dormir bem faz com que a imunidade do bebe aumente, o humor, tanto do bebe quanto da mamãe, melhore! Dormir quentinho e confortável faz com que seu bebe não sinta dores de cólicas, abdominais ou qualquer fadiga que impossibilite que ele consiga tirar o soninho da beleza"
+           },
+           {
+            "name": "Bebê Conforto Cosco Wizz",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/bebe-conforto-cosco-wizz-0-a-13kg\/magazineluiza\/234473500\/8ad90ef12244abbac107f9fa6dd0aae7.jpg",
+            "pricing": 299.99,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/bebe-conforto-cosco-kids-wizz-0-a-13kg\/p\/234473800\/bb\/bcft\/",
+            "priority": 0,
+            "description": "Pensar na segurança do bebê deve ser prioridade para os pais, desde o momento da saída da maternidade e em todos os deslocamentos futuros, com conforto e muita praticidade, por isso, o Bebê Conforto Reclinável Wizz da Cosco Kids é a escolha perfeita. Ele tem estrutura leve que facilita a instalação no veículo e para carregar o bebê, com total segurança."
+           },
+           {
+            "name": "Banheira Com Suporte Dobrável e Trocador, 25l, até 30kg - Baby Hércules",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/banheira-com-suporte-dobravel-e-trocador-25l-ate-30kg-baby-hercules-kids-baby-hercules\/herculesbaby\/15966858412\/bdcbc17015c3e4c1519610310d265fbd.jpeg",
+            "pricing": 339.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/banheira-com-suporte-dobravel-e-trocador-25l-ate-30kg-baby-hercules-kids-baby-hercules\/p\/fec25j072g\/bb\/ifba\/",
+            "priority": 0,
+            "description": "A banheira é uma excelente opção para quem busca segurança e praticidade, sem abrir mão do conforto do seu pequeno na hora do banho."
+           },
+           {
+            "name": "Mini Berço 100% MDF com Colchão Yescasa",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/mini-berco-100-mdf-com-colchao-yescasa\/madeiramadeira-openapi\/692395\/3d239f62dec86c8db85debb39c9db9eb.jpeg",
+            "pricing": 263.05,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/mini-berco-100-mdf-com-colchao-yescasa\/p\/cjg6da6akb\/mo\/mnbc\/",
+            "priority": 0,
+            "description": "O Mini Berço 100% MDF com colchão é um produto que vai levar mais elegância e sofisticação para o quarto do seu bebê. Produzido com MDF, madeira resistente que garante estabilidade e segurança, ele é a melhor opção para deixar que seu anjinho descanse seguro."
+           },
+           {
+            "name": "Mosquiteiro Para Mini Berço Véu Mini Berço",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/mosquiteiro-para-mini-berco-veu-mini-berco-oficina-dos-sonhos-enxovais\/oficinadossonhosenxovais\/6ab34da2c8da11ed974c4201ac18502f\/274a78a280dddadec2fa64c94274b031.jpeg",
+            "pricing": 59.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/mosquiteiro-para-mini-berco-veu-mini-berco-oficina-dos-sonhos-enxovais\/p\/dg8gg3h840\/bb\/dsbb\/",
+            "priority": 0,
+            "description": "Agora ficou muito mais divertido e gostoso a hora de brincar e de dormir com esse maravilhoso kit, nele contem um tapete de atividades com piano da Color Baby com uma naninha fofa de ursinho para seu bebê. Tapete de atividades com piano vai divertir e entreter o bebê. O piano possui luzes e teclas com muitas músicas e pode ser ajustado na posição vertical ou na horizontal e também pode ser removido e ser apenas o tapete acolchoado. Possui também um arco móbiles. Tapete leve, portátil, acolchoado e lavável."
+           },
+           {
+            "name": "Kit Mini Berço 10 Pçs - Rei do Kit berço Safari Verde",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-mini-berco-10-pcs-rei-do-kit-berco-safari-verde\/mlbordados\/minibercosafariverde\/b7d5759f1add0a7538f2760c6ee57a39.jpeg",
+            "pricing": 112.40,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-mini-berco-10-pcs-rei-do-kit-berco-safari-verde\/p\/bace4393a4\/cm\/kieb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Kit Natura Mamãe e Bebê",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-natura-mamae-e-bebe\/lojaperfumari\/8c017f42d83f11ec86354201ac185078\/effc09539e96983197c5a0b9d0d12756.jpeg",
+            "pricing": 189.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-natura-mamae-e-bebe\/p\/adgd0e84bb\/bb\/khbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Tapete Bebe Ginásio Interação Som Tato Verde e Mantinha Urso",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/tapete-bebe-ginasio-interacao-som-tato-verde-e-mantinha-urso-color-baby\/fullflash\/kit42203vd-7215nanurso-f4\/552d1288c83ab96c82abf30075aa5141.jpeg",
+            "pricing": 207.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/tapete-bebe-ginasio-interacao-som-tato-verde-e-mantinha-urso-color-baby\/p\/fh14bhk857\/br\/tcat\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Kit Higiene 13 Pçs Bebê Escova, Pente, Termômetro, Tesoura..",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-higiene-13-pcs-bebe-escova-pente-termometro-tesoura-small-baby\/limagelive\/13azul2\/d81ce4bdcdf80f41bd175701db013f2e.jpeg",
+            "pricing": 145.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-higiene-13-pcs-bebe-escova-pente-termometro-tesoura-small-baby\/p\/af8dbk06eg\/bb\/khbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Kit Higiene Bebê Porcelana Garrafa Bandeja Mdf 6pçs",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-higiene-bebe-porcelana-garrafa-bandeja-mdf-6pcs-tg-decor\/tgdecor\/9288276303\/82d91c5ceb4c50e6d025a717f6967b77.jpeg",
+            "pricing": 164.00,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-higiene-bebe-porcelana-garrafa-bandeja-mdf-6pcs-tg-decor\/p\/akc60abfdb\/bb\/khbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Mantinhas Manta Cobertor Para Bebê Criança Infantil Soft Inverno Frio",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/mantinhas-manta-cobertor-para-bebe-crianca-infantil-soft-inverno-frio-studio-casa\/studiocasaibitinga\/0e4ad56edf4111eb84574201ac18500e\/0806497e892d4c93d395896a0954a849.jpeg",
+            "pricing": 39.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/mantinhas-manta-cobertor-para-bebe-crianca-infantil-soft-inverno-frio-studio-casa\/p\/kbcc8080bb\/cm\/mtbb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Fralda Babysec Galinha Pintadinha Ultrasec",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/fralda-babysec-galinha-pintadinha-ultrasec-p-42-unidades\/magazineluiza\/225548600\/9fb5af5a66067b91662e1400fb5b039c.jpg",
+            "pricing": 34.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/fralda-babysec-galinha-pintadinha-ultrasec-p-42-unidades\/p\/225548600\/me\/fdes\/",
+            "priority": 0,
+            "description": "Pensando na preocupação que os pais têm com a higiene diária dos bebês, a Babysec traz a fralda Fita Ultrasec Galinha Pintadinha. Com 12h de proteção ela possui exclusiva tecnologia de ultra absorção e retenção, trazendo maior proteção, conforto e segurança para o bebê."
+           },
+           {
+            "name": "Lenços Umedecidos Huggies Supreme Care",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/lencos-umedecidos-huggies-supreme-care-48-unidades-cada-6-pacotes\/magazineluiza\/229140600\/31fe4a8a86005a1862eaadf0ffbe730b.jpg",
+            "pricing": 59.94,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/lencos-umedecidos-huggies-supreme-care-48-unidades-cada-6-pacotes\/p\/229140600\/me\/luad\/",
+            "priority": 0,
+            "description": "As toalhas umedecidas Huggies Supreme Care foram elaboradas para proporcionar hidratação à pele do bebê, graças a sua fórmula enriquecida com agentes hidratantes e vitamine E. Além de limpar de forma segura e proteger a pele, ajudando a prevenir assaduras. Quantidade: 48 unidades."
+           },
+           {
+            "name": "Kit Roupa De Bebe 12 Peças Body Manga Longa E Mijão Suedine",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-roupa-de-bebe-12-pecas-body-manga-longa-e-mijao-suedine-sophi\/belamodas\/95-301\/f9d8e4cca9120936a2cd404e2e656ad0.jpeg",
+            "pricing": 78.80,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-roupa-de-bebe-12-pecas-body-manga-longa-e-mijao-suedine-sophi\/p\/ca9k8832b5\/md\/cjtb\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Bomba Manual Tira Leite Materno G-tech",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/bomba-manual-tira-leite-materno-g-tech\/farmelhoraltodamooca2\/16723p\/608aa42f8c94c4fb76a71f49d9c515de.jpeg",
+            "pricing": 68.69,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/bomba-manual-tira-leite-materno-g-tech\/p\/dgj60j9ahe\/bb\/botl\/",
+            "priority": 0,
+            "description": "A alimentação das crianças nos primeiros meses de vida é essencial para o seu fortalecimento, desenvolvimento e proteção. E para auxiliar na retirada de leite materno a bombinha tira-leite Confort da G-Tech é ideal, pois é fácil de manusear, além de ser confortável. Desenvolvida com materiais de excelente qualidade e alta performance, permite uma retirada de leite satisfatória, 120ml, sem causar dor ou incômodo a lactante."
+           },
+           {
+            "name": "Fralda Huggies Supreme Care",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/fralda-huggies-supreme-care-tam-g-9-a-125kg-64-unidades\/magazineluiza\/218732000\/36529743e61ce969de1dcca7cb9479c3.jpg",
+            "pricing": 83.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/fralda-huggies-supreme-care-tam-g-9-a-125kg-64-unidades\/p\/218732000\/me\/fdes\/",
+            "priority": 0,
+            "description": "A Fralda infantil Huggies Supreme Care é perfeita para os cuidados com o seu bebê. Ela conta com a exclusiva tecnologia Xtra-Flex que mantém a fralda ajustada e flexível mesmo quando o bebê estiver em movimento. Ela é uma fralda descartável, com os canais de absorção em formato de “X” distribuem melhor o xixi e dão mais conforto para o bebê, evitando assim quedas ou passos em falso em razão da fralda cheia."
+           },
+           {
+            "name": "Kit Higiene do Bebê Shampoo + Condicionador + Sabonete - Granado",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/kit-higiene-do-bebe-shampoo-condicionador-sabonete-granado\/pacobabycomercio\/fc43627e359e11ebaa584201ac18503f\/34ed6b3248e5912d7ab838dfa8a78036.jpeg",
+            "pricing": 116.99,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/kit-higiene-do-bebe-shampoo-condicionador-sabonete-granado\/p\/eb540e810d\/me\/ppbe\/",
+            "priority": 0,
+            "description": "Quer ter a tranquilidade de saber que seu bebê está protegido e confortável o tempo todo? Experimente então a Fralda Pampers Confort Sec, um produto de alta qualidade com tecnologia de canais de ar que permitem uma circulação livre dentro da fralda para o bumbum ficar menos abafado e a pele arejada e sequinha. Indicada para uso diurno e noturno em bebês de 6 a 10kg, ela possui camada ultra absorvente, barreira antivazamentos e três canais absorventes extras que distribuem o xixi, deixando seu bebê duas vezes mais seco em comparação com outros produtos. Além disso, ela também se destaca pelo máximo conforto graças ao ajuste flexível da cintura e a loção hipoalergênica que previne irritações. Nesta embalagem você leva 80 fraldas no tamanho M."
+           },
+           {
+            "name": "Fralda Pampers Confort Sec Tam. M 6 a 10kg",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/fralda-pampers-confort-sec-tam-m-6-a-10kg-80-unidades\/magazineluiza\/226535200\/456575c974d6ebef0a8d39ac42ad1cc8.jpg",
+            "pricing": 85.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/fralda-pampers-confort-sec-tam-m-6-a-10kg-80-unidades\/p\/226535200\/me\/fdes\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Fralda Huggies Tripla Proteção Tam. G",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/fralda-huggies-tripla-protecao-tam-g-9-a-125kg-78-unidades\/magazineluiza\/218621700\/23482cc39f147ed0cade9f8e254ed77a.jpg",
+            "pricing": 103.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/fralda-huggies-tripla-protecao-tam-g-9-a-125kg-78-unidades\/p\/218621700\/me\/fdes\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Fralda Huggies Tripla Proteção",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/fralda-huggies-tripla-protecao-tam-m-55-a-95kg-92-unidades\/magazineluiza\/218621600\/1c5177518d689383fd7eb39c1619a9fe.jpg",
+            "pricing": 95.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/fralda-huggies-tripla-protecao-tam-m-55-a-95kg-92-unidades\/p\/218621600\/me\/fdes\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Fralda Huggies Supreme Care Roupinha Calça",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/fralda-huggies-supreme-care-roupinha-calca-tam-m-55kg-a-95kg-72-unidades\/magazineluiza\/227303200\/67c58d6a4b2c20958524302f139316ed.jpg",
+            "pricing": 92.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/fralda-huggies-supreme-care-roupinha-calca-tam-m-55kg-a-95kg-72-unidades\/p\/227303200\/me\/fdes\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Fraldas Pampers Supersec Tam. M",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/fraldas-pampers-supersec-tam-m-6-a-10kg-90-unidades\/magazineluiza\/221642700\/48501790f82336990d29a2d86f22faa5.jpg",
+            "pricing": 79.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/fraldas-pampers-supersec-tam-m-6-a-10kg-90-unidades\/p\/221642700\/me\/fdes\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Colônia Cheirinho de Bebê 750 ml",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/colonia-cheirinho-de-bebe-750-ml\/kaniz1900\/196\/4e929a4f7e0797832050633c946136d8.jpg",
+            "pricing": 78.20,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/colonia-cheirinho-de-bebe-750-ml\/p\/cj31e1ch19\/me\/accb\/",
+            "priority": 0,
+            "description": "Desenvolvida para uso infantil principalmente, é delicada e suave, deixando a pele perfumada e com uma sensação única de maciez. Sua confortável fragrância deixa aquele cheirinho inesquecível de infância, permanecendo na pele por um longo tempo."
+           },
+           {
+            "name": "Fralda Pampers Premium Care G",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/fralda-pampers-premium-care-g-9-a-13kg-68-unidades\/magazineluiza\/221144700\/c78ef3fa545f0aef914d59bc5d159339.jpg",
+            "pricing": 94.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/fralda-pampers-premium-care-g-9-a-13kg-68-unidades\/p\/221144700\/me\/fdes\/",
+            "priority": 0,
+            "description": ""
+           },
+           {
+            "name": "Almofada Para Banho do Bebê CINZA",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/almofada-para-banho-do-bebe-cinza-click-tudo\/clicktudo\/9610102599\/9aeea99d8e6c8d102d360333d3c842f0.jpeg",
+            "pricing": 86.35,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/almofada-de-banho-banheira-para-bebe-baby-rapido-marphi-comercial\/p\/hh3hk0kaff\/bb\/alba\/?seller_id=olistplus&region_id=123474&utm_source=google&utm_medium=pla&utm_campaign=&partner_id=71193&gad_source=1&gclid=Cj0KCQiAz8GuBhCxARIsAOpzk8zkGM03m7lPY7rNvQfyifIC9I2aWKrkw1FIq8DdIx6WJAFjiIs33N4aAqt5EALw_wcB&gclsrc=aw.ds",
+            "priority": 0,
+            "description": "Almofada para Banho Baby Marphi, auxilia os pais de primeira viagem a dar aquele banho gostoso. A hora do banho ficou muito mais alegre e divertida com essa almofada linda e maravilhosa. Ela é super relaxante e deixa seu bebê super confortável. Os bebês são frágeis, pequenos e a gente morre de medo de fazer qualquer coisa que possa machucá-los (principalmente os pais de primeira viagem rsrs). A hora do banho, então, é um momento que toda atenção é necessária para que nosso filho fique limpo, cheiroso e principalmente bem cuidado. Para o bebê, o banho também precisa ser um momento de relaxar, aproveitar o contato com água e com os pais."
+           },
+           {
+            "name": "Creme Preventivo para Assaduras Infantil Huggies",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/creme-preventivo-para-assaduras-infantil-huggies-supreme-care-80g-3-unidades\/magazineluiza\/224847900\/b6d62c1922d009bc87559cd4ac5f89f4.jpg",
+            "pricing": 68.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/creme-preventivo-para-assaduras-infantil-huggies-supreme-care-80g-3-unidades\/p\/aja461514g\/me\/cpoa\/",
+            "priority": 0,
+            "description": "O creme preventivo para assaduras Supreme Care foi desenvolvida pela Huggies pensando nos cuidados especiais que a mamãe deve ter com a pele de seu bebê. Os dois primeiros anos da criança é necessário ter acompanhamento, já que elas estão propensas a assaduras neste período."
+           },
+           {
+            "name": "Hipoglós Creme Preventivo De Assaduras",
+            "image": "https:\/\/a-static.mlcdn.com.br\/500x500\/hipoglos-creme-preventivo-de-assaduras-transparente-leve-120g-pague-80g\/magazineluiza\/226458200\/6a236e109eb390d0f90bebd0eb9f1dff.jpg",
+            "pricing": 45.90,
+            "link_purchase": "https:\/\/www.magazineluiza.com.br\/hipoglos-creme-preventivo-de-assaduras-transparente-leve-120g-pague-80g\/p\/226458200\/me\/cpoa\/",
+            "priority": 0,
+            "description": "Sua fórmula protege contra assaduras, germes e outros agressores, hidrata por 48 horas, alivia os sintomas de vermelhidão, regenera e estimula a renovação celular e fortalece a defesa natural da pele."
+           }
     ]
 }
