@@ -6,7 +6,7 @@ export default function Footer(){
         <footer className="text-center p-2 flex items-center justify-center text-stone-500 flex-wrap">
             Enxoval do Mathias &copy; 2024 - 
                 <Link
-                href={"https://github.com/tsalesproductions/enxoval-do-mathias"} target="_blank" className="ml-1 flex gap-2 underline" tit>
+                href={"https://github.com/tsalesproductions/enxoval-do-mathias"} target="_blank" className="ml-1 flex gap-2 underline">
                     <Image 
                         src="/github.svg"
                         alt='Projeto disponível para download no github'
