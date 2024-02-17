@@ -224,9 +224,16 @@ body {
   -moz-appearance: none;
   appearance: none;
 }
-.product.card>img{
-  height: 250px;
-  object-fit: cover;
+@media(min-width: 992px){
+  .product.card>img{
+    height: 250px;
+    object-fit: cover;
+  }
 }
-
+@media(max-width:992px){
+  .product.card>img{
+    height: 200px;
+    object-fit: contain;
+  }
+}
 

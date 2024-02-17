@@ -25,8 +25,8 @@ export default function Header(){
         <>
             <header className={`w-200 flex flex-col justify-center items-center header py-10 pb-2`} style={{backgroundImage: `url(${info.bg})`}}>
                 <Link
-                    href={"/"}>
-                    <img src={info.image} className={`w-40 h-40 rounded-full shadow-md`}/>
+                    href={"/"} title='Voltar para a página inicial'>
+                    <img src={info.image} className={`w-40 h-40 rounded-full shadow-md`} alt='Voltar para a página inicial'/>
                 </Link>
                 <div className='shadow-sm rounded bg-white p-5 mt-5 text-center'>
                     <h4 className={`text-2xl font-600`}>{info.title}</h4>

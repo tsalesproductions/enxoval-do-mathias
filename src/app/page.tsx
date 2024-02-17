@@ -8,7 +8,7 @@ export default function Home() {
     <>
     <Header/>
 
-    <main className="w-full container  py-8 flex flex-col gap-12 lg:gap-16 lg:py-10 mx-auto">
+    <main className="w-full container py-8 flex flex-col gap-7 lg:gap-5 lg:py-10 mx-auto">
       
       <div className="others-options grid grid-cols-1 sm:grid-cols-3 gap-2 sm:gap-4 m-2 sm:m-0">
         <a
@@ -44,7 +44,7 @@ export default function Home() {
           </a>
       </div>
 
-      <div className="shelfs mb-32 flex flex-col ">
+      <div className="shelfs  flex flex-col ">
         <Shelfs/>
         <DetailsProduct/>
       </div>

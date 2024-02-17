@@ -28,7 +28,7 @@ export default function Shelfs(){
         <div className={`shelfs mt-10`}>
             {shelfsOrdered.map((shelf, index) => {
                 return (
-                    <div key={index} data-title={shelf.title} className={`shelf mb-20`}>
+                    <div key={index} data-title={shelf.title} className={`shelf mb-20 last:mb-7`}>
                         <h4 className={`text-2xl font-semibold text-center after-border`}>{shelf.title} <small className={`text-sx font-light`}>{shelf.description}</small></h4>
                         <div className={`products mt-5`}>
                         <Swiper
