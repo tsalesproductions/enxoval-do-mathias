@@ -22,7 +22,7 @@ export default function ProductCard({product }: shelfData){
     }
 
     return (
-        <div className={`product card card-compact group w-full text-start hover:bg-slate-100 hover:cursor-pointer border border-zinc-200`}>
+        <div className={`product card card-compact group w-full text-start hover:bg-stone-50 hover:cursor-pointer border border-zinc-200`}>
             <img 
                 src={data?.image}
                 alt={data?.name}

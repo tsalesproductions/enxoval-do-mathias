@@ -237,3 +237,7 @@ body {
   }
 }
 
+header .description{
+  max-width: 600px;
+}
+

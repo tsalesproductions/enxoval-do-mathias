@@ -28,7 +28,7 @@ export default function Header(){
                     href={"/"} title='Voltar para a página inicial'>
                     <img src={info.image} className={`w-40 h-40 rounded-full shadow-md`} alt='Voltar para a página inicial'/>
                 </Link>
-                <div className='shadow-sm rounded bg-white p-5 mt-5 text-center'>
+                <div className='shadow-sm rounded bg-white p-5 mt-5 text-center description'>
                     <h4 className={`text-2xl font-600`}>{info.title}</h4>
                     <p className={`text-sm`}>{info.description}</p>
                 </div>

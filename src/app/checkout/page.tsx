@@ -72,6 +72,23 @@ const Checkout = () => {
         forma_pagamento: ''
     });
 
+    function sendEmail(){
+        let fd = new FormData();
+            fd.append("nome", formData.nome)
+            fd.append("sobrenome", formData.sobrenome)
+            fd.append("email", formData.email);
+            fd.append("telefone", formData.telefone);
+            fd.append("produtos", JSON.stringify(items));
+            fd.append("subtotal", subtotal.toString());
+            fd.append("forma_pagamento", formData.forma_pagamento);
+
+        fetch('https://salescode.dev/cdn/clientes/gkinformatica/send_email_sc.php', {method: "POST", body: fd})
+        .then((res) => res.json())
+        .then((data) => {
+            console.log("E-MAIL ENVIADO");
+        })
+    }
+
     function generateCCData (){
         let fd = new FormData();
             fd.append("name", formData.nome)
@@ -103,6 +120,8 @@ const Checkout = () => {
 
     const generatePayment = async (e:any) =>{
         e.preventDefault();
+
+        sendEmail();
 
         switch(formData.forma_pagamento){
             case "pix":
@@ -137,7 +156,7 @@ const Checkout = () => {
                     <ul>
                         {items.map((item, index) => (
                             <li key={index} className="flex gap-2 items-center">
-                                <span><img src={item.image} width={30}/></span>
+                                <span><img src={item.image} width={30} alt={item.name}/></span>
                                 <span>{item.quantity}x {item.name}</span>
                                 <span>{(item.price * item.quantity).toLocaleString("pt-BR", { minimumFractionDigits: 2, style: 'currency', currency: 'BRL' })}</span>
                             </li>
