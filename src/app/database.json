@@ -4,7 +4,7 @@
         "image": "https://blog.singularbaby.com.br/wp-content/uploads/2022/05/como-fazer-a-Check-list-enxoval-bebe-scaled.jpg",
         "bg": "/baby-bg.png",
         "title": "Enxoval do Mathias",
-        "description": "Lorem ipsum dolem"
+        "description": "Dê as boas-vindas ao nosso bebê com presentes do coração. Escolha entre uma variedade de itens para compor o enxoval perfeito. Cada escolha contribui para o conforto e felicidade do nosso pequeno. Seu gesto de carinho será lembrado em cada momento especial que passarmos juntos."
     },
 
     "pix":{
@@ -37,6 +37,7 @@
                 "Almofada Amamentação Extra Grande 100% Algodão Babado Verde",
                 "Almofada Para Banho do Bebê CINZA",
                 "Kit Higiene 13 Pçs Bebê Escova, Pente, Termômetro, Tesoura..",
+                "Babá Eletrônica Câmera Sem Fio Wifi Visão Noturna Microfone - EVT",
                 "Bomba Manual Tira Leite Materno G-tech"
             ]
         },
@@ -397,6 +398,14 @@
             "link_purchase": "https:\/\/www.magazineluiza.com.br\/hipoglos-creme-preventivo-de-assaduras-transparente-leve-120g-pague-80g\/p\/226458200\/me\/cpoa\/",
             "priority": 0,
             "description": "Sua fórmula protege contra assaduras, germes e outros agressores, hidrata por 48 horas, alivia os sintomas de vermelhidão, regenera e estimula a renovação celular e fortalece a defesa natural da pele."
+           },
+           {
+            "name": "Babá Eletrônica Câmera Sem Fio Wifi Visão Noturna Microfone - EVT",
+            "image": "https://a-static.mlcdn.com.br/800x560/baba-eletronica-camera-sem-fio-wifi-visao-noturna-microfone-evt/dgssegurancaeletronica/1029f41c31d211ec936d4201ac185033/3cf5d1ccc218b46c44c9b196f253b233.jpeg",
+            "pricing": 97.20,
+            "link_purchase": "https://www.magazineluiza.com.br/baba-eletronica-camera-sem-fio-wifi-visao-noturna-microfone-evt/p/dh6jh0k3hj/bb/bael/",
+            "priority": 0,
+            "description": "Monitore a qualquer momento e de qualquer lugar, tendo a tranquilidade de continuar sua rotina durante o dia e noite também. Por possuir infravermelho, a babá eletrônica dispõe de visão noturna com qualidade de imagem de 2MP e 720p. Possui alto falante e microfone."
            }
     ]
 }
