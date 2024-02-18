@@ -55,8 +55,8 @@ export default function Page(){
                             <div className="others-keys">
                                 <h4 className="text-xl font-semibold text-black m-0">Outras chaves:</h4>
                                 <ul>
-                                    <li><strong>Chave (Telefone):</strong> (21) 98192-3293 - Izabelly Gonçaves</li>
-                                    <li><strong>Chave (E-mail):</strong> pix@thiagosales.dev</li>
+                                    <li><strong>Chave (Telefone):</strong> (21) 97096-5042 - Izabelly Gonçaves</li>
+                                    {/* <li><strong>Chave (E-mail):</strong> pix@thiagosales.dev</li> */}
                                 </ul>
                             </div>
                         </div>
