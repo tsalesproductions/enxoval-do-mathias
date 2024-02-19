@@ -19,7 +19,7 @@ export default function Page(){
         async function loadPixData(){
             const pixResponse = await qrPix({
                 price: 0,
-                message: `PIX DOADO ATRAVÉS DA PaGINA DE PIX`
+                message: `PIX ENVIADO ATRAVES DA PAGINA DE PIX`
             });
     
             if(pixResponse){
