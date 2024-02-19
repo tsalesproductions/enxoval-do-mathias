@@ -7,6 +7,10 @@ A ideia é ser um pequeno e-commerce onde os parentes e amigos podem escolher o 
 -> https://enxovaldomathias.thiagosales.dev/ <br>
 -> https://enxoval-do-mathias.vercel.app/ <br>
 
+## DESEMPENHO NO PAGESPEED
+![Desempenho pagespeed](/pagespeed.jpg)
+Resultado -> https://pagespeed.web.dev/analysis/https-listadomathias-thiagosales-dev/xwo37kqzr7?form_factor=mobile
+
 ## Detalhes do projeto
 O projeto foi criado sem conexões com banco de dados, somente com produtos e detalhes em arquivo json.
 Porém já está adaptado para uma migração futura, caso alguém esteja disposto a usar e migrar esse projeto.
