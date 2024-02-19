@@ -30,7 +30,7 @@ export default async function qrPix({price, message} : {price: number, message: 
         name: pix.name,
         city: pix.city,
         transactionId: pix.identification+(getRndInteger(11111111,99999999)),
-        message: message,
+        // message: message,
         cep: '22775150',
         value: price,
     });
