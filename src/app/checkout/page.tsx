@@ -51,7 +51,7 @@ const Checkout = () => {
         const productsTemp = [];
 
         for(const item of items){
-            const pItem = products.find(p=>p.name = item.name);
+            const pItem = products.find(p=>p.name == item.name);
             if(pItem){
                 productsTemp.push({
                     name: pItem.name,
